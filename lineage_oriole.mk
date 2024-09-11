@@ -22,7 +22,7 @@ TARGET_BUILD_PACKAGE := 1
 # 3 - pixel (valid only on gapps builds) 
 
 
-TARGET_LAUNCHER := 2
+TARGET_LAUNCHER := 1
 # GAPPS (valid only for GAPPS builds)
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_CALL_RECORDING := true

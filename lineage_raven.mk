@@ -25,7 +25,7 @@ TARGET_BUILD_PACKAGE := 1
 # 1 - stock (default)
 # 2 - lawnchair
 # 3 - pixel (valid only on gapps builds)
-TARGET_LAUNCHER := 2
+TARGET_LAUNCHER := 1
 
 # GAPPS (valid only for GAPPS builds)
 TARGET_SUPPORTS_QUICK_TAP := true
