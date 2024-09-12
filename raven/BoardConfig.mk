@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+TARGET_SYSTEM_PROP := device/google/raviole/raven/phoneinfo.prop
+
 # Enable load module in parallel
 BOARD_BOOTCONFIG += androidboot.load_modules_parallel=true
 
