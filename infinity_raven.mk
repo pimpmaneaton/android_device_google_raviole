@@ -7,12 +7,13 @@
 # Inherit some common Lineage stuff.
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
+$(call inherit-product, vendor/gms/gms_full.mk)
 
 INFINITY_BUILD_TYPE := OFFICIAL
 INFINITY_MAINTAINER := "IczYn"
 TARGET_SUPPORTS_BLUR := true
-WITH_GAPPS := true
-TARGET_BUILD_GOOGLE_TELEPHONY := true
+# WITH_GMS := true
+# TARGET_BUILD_GOOGLE_TELEPHONY := true
 TARGET_BUILD_VIMUSIC := true
 USE_MOTO_CALCULATOR := false
 WITH_INFINITY_CHARGER := true
@@ -22,9 +23,9 @@ TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_PIXEL_FRAMEWORK := true
 TARGET_EXCLUDES_AUDIOFX := true
 TARGET_PIXEL_BOOT_ANIMATION_RES := 1440
-TARGET_IS_PIXEL := true
-TARGET_IS_PIXEL_6 := true
-TARGET_PIXEL_STAND_SUPPORTED := true
+# TARGET_IS_PIXEL := true
+# TARGET_IS_PIXEL_6 := true
+# TARGET_PIXEL_STAND_SUPPORTED := true
 
 
 # Inherit device configuration
